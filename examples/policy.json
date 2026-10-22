@@ -1,0 +1,10 @@
+{
+  "default": "BLOCK",
+  "rules": [
+    {"id":"deny-suspicious-host","action":"BLOCK","source":"203.0.113.66","protocol":"ANY","ports":"ANY"},
+    {"id":"allow-https","action":"ALLOW","protocol":"TCP","ports":"443"},
+    {"id":"allow-dns","action":"ALLOW","protocol":"UDP","ports":"53"},
+    {"id":"allow-local-ssh","action":"ALLOW","source":"192.168.1.0/24","protocol":"TCP","ports":"22"},
+    {"id":"deny-ping","action":"BLOCK","protocol":"ICMP","ports":"ANY"}
+  ]
+}

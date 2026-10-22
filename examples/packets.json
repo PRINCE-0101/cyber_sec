@@ -1,0 +1,8 @@
+[
+ {"source":"203.0.113.66","destination":"198.51.100.10","protocol":"TCP","port":443},
+ {"source":"192.168.1.20","destination":"198.51.100.10","protocol":"TCP","port":443},
+ {"source":"192.168.1.20","destination":"198.51.100.10","protocol":"UDP","port":53},
+ {"source":"192.168.1.20","destination":"192.168.1.10","protocol":"TCP","port":22},
+ {"source":"198.51.100.20","destination":"192.168.1.10","protocol":"TCP","port":22},
+ {"source":"192.168.1.20","destination":"192.168.1.10","protocol":"ICMP","port":null}
+]
